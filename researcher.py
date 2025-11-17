@@ -13,7 +13,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langchain_tavily import TavilySearch, TavilyExtract
 from datetime import datetime
 from langgraph.types import Command
-from ai_launchpad.langgraph_module.multi_agent.supervisor.utils import truncate_messages
+from utils import truncate_messages
 
 # --------------------------------------------------------
 # Setup
